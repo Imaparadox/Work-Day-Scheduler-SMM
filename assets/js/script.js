@@ -11,10 +11,23 @@ $("#currentDay").text(moment().format("dddd MMMM, YYYY, hA"));
 //  console.log(presentTime);
 //  console.log(now);
 
+//function for local storage
+function saveTasks() {
+    var
+}
 
 
-// WHEN I scroll down
-// THEN I am presented with timeblocks for standard business hours
+// var inputText = [];
+// $("#container").find("input").each(function () { inputText.push(this.id); });
+
+// for (var i = 0; i > inputText.length; i++) {
+//     var inputCol
+//     $("#i")
+// };
+
+function change() {
+
+}
 
 
 // WHEN I view the timeblocks for that day
