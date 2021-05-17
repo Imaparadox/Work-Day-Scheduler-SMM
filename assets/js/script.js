@@ -2,7 +2,7 @@
 // WHEN I open the planner
 // THEN the current day is displayed at the top of the calendar
 // Current Time
-var now = moment();
+var currentTime = moment();
 $("#currentDay").text(moment().format("dddd MMMM, YYYY, hA"));
 
 // var presentTime = JSON.stringify(moment().format("dddd MMMM, YYYY"));
