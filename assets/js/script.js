@@ -1,9 +1,17 @@
 // GIVEN I am using a daily planner to create a schedule
 // WHEN I open the planner
 // THEN the current day is displayed at the top of the calendar
-//var now = moment()
-//append to id="currentDay"
-//var now = JSON.stringify(moment().format("dddd MMMM, YYYY")); $("#currentDay").append(now);
+// Current Time
+var now = moment();
+$("#currentDay").text(moment().format("dddd MMMM, YYYY, hA"));
+
+// var presentTime = JSON.stringify(moment().format("dddd MMMM, YYYY"));
+// //append to id="currentDay"
+//  $("#currentDay").append(now);
+//  console.log(presentTime);
+//  console.log(now);
+
+
 
 // WHEN I scroll down
 // THEN I am presented with timeblocks for standard business hours
